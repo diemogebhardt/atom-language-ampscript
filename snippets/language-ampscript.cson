@@ -1,1 +1,4 @@
 '.source.ampscript':
+  'comment-block':
+    'prefix': '/**'
+    'body': '/**\n * $1\n */$0'
