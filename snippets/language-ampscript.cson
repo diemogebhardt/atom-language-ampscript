@@ -1,4 +1,7 @@
 '.source.ampscript':
+  'code-block':
+    'prefix': '%%'
+    'body': '%%[\n$1\n]%%$0'
   'comment-block':
     'prefix': '/**'
     'body': '/**\n * $1\n */$0'
