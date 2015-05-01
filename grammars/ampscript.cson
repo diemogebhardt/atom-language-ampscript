@@ -1,0 +1,6 @@
+'scopeName': 'source.ampscript'
+'name': 'AMPScript'
+'fileTypes': [
+  'amp'
+  'ampscript'
+]
