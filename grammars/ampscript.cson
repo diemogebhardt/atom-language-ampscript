@@ -4,3 +4,16 @@
   'amp'
   'ampscript'
 ]
+'patterns': [
+  {
+    'include': '#comment-block'
+  }
+]
+'repository':
+  'comment-block':
+    'begin': '/\\*'
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.ampscript'
+    'end': '\\*/'
+    'name': 'comment.block.ampscript'
