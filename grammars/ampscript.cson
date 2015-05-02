@@ -13,4 +13,56 @@
     'end': '\\*/'
     'name': 'comment.block.ampscript'
   }
+  {
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.ampscript'
+    'end': '\''
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.ampscript'
+    'name': 'string.quoted.single.ampscript'
+    'patterns': [
+      {
+        'include': '#constant-character-escape'
+      }
+    ]
+  }
+  {
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.ampscript'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.ampscript'
+    'name': 'string.quoted.double.ampscript'
+    'patterns': [
+      {
+        'include': '#constant-character-escape'
+      }
+    ]
+  }
+  {
+    'match': '(\\b(?i:false)\\b)'
+    'name': 'constant.language.boolean.false.ampscript'
+  }
+  {
+    'match': '(\\b(?i:true)\\b)'
+    'name': 'constant.language.boolean.true.ampscript'
+  }
+  {
+    'match': '(\\b(?i:null)\\b)'
+    'name': 'constant.language.null.ampscript'
+  }
+  {
+    'match': '(\\b(0(x|X)[0-9a-fA-F]+)|([0-9]+(\\.[0-9]+)?))\\b'
+    'name': 'constant.numeric.ampscript'
+  }
 ]
+'repository':
+  'constant-character-escape':
+    'match': '\\\\(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
+    'name': 'constant.character.escape.ampscript'
