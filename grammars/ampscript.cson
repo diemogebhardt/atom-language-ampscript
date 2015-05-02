@@ -62,6 +62,10 @@
     'name': 'constant.numeric.ampscript'
   }
   {
+    'match': '(\\b(?i:if|then|else|elseif|endif|for|to|downto|do|next)\\b)'
+    'name': 'keyword.control.ampscript'
+  }
+  {
     'match': '\\@[a-zA-Z0-9_]+'
     'name': 'variable.language.ampscript'
   }
