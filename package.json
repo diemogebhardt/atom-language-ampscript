@@ -1,7 +1,7 @@
 {
   "name": "language-ampscript",
   "version": "0.0.0",
-  "description": "AMPScript language support in Atom",
+  "description": "AMPscript language support in Atom",
   "author": {
     "name" : "Diemo Gebhardt",
     "email" : "me@diemogebhardt.com",

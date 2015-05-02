@@ -1,4 +1,4 @@
-describe 'AMPScript grammar', ->
+describe 'AMPscript grammar', ->
   grammar = null
 
   beforeEach ->
