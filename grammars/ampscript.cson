@@ -66,6 +66,10 @@
     'name': 'keyword.control.ampscript'
   }
   {
+    'match': '==|!=|>|<|>=|<=|\\b(and|or|not)\\b'
+    'name': 'keyword.operator.ampscript'
+  }
+  {
     'match': '\\@[a-zA-Z0-9_]+'
     'name': 'variable.language.ampscript'
   }
