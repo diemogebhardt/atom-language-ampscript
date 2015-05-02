@@ -2,6 +2,12 @@
   'code-block':
     'prefix': '%%'
     'body': '%%[\n$1\n]%%$0'
+  'code-block-context':
+    'prefix': '%%'
+    'body': '%%[[type=${1:Post};name=${2:BlockName}]\n$3\n]%%$0'
+  'code-block-inline':
+    'prefix': '%%'
+    'body': '%%[$1]%%$0'
   'code-inline':
     'prefix': '%%='
     'body': '%%=$1=%%$0'
