@@ -70,6 +70,10 @@
     'name': 'keyword.operator.ampscript'
   }
   {
+    'match': '[\\%\\%\\[]|[\\]\\%\\%]|\\%\\%\\=|\\=\\%\\%'
+    'name': 'meta.brace.ampscript'
+  }
+  {
     'match': '\\@[a-zA-Z0-9_]+'
     'name': 'variable.language.ampscript'
   }
