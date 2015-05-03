@@ -1,11 +1,11 @@
 {
   "name": "language-ampscript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "AMPscript language support in Atom",
   "author": {
-    "name" : "Diemo Gebhardt",
-    "email" : "me@diemogebhardt.com",
-    "url" : "https://diemogebhardt.com/"
+    "name": "Diemo Gebhardt",
+    "email": "me@diemogebhardt.com",
+    "url": "https://diemogebhardt.com/"
   },
   "homepage": "https://atom.io/packages/language-ampscript",
   "repository": {
