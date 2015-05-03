@@ -14,3 +14,6 @@
   'comment-block':
     'prefix': '/**'
     'body': '/**\n * $1\n */$0'
+  'comment-inline':
+    'prefix': '/*'
+    'body': '/* $1 */$0'
