@@ -1,0 +1,41 @@
+%%[
+
+  /**
+   * comment-block
+   */
+
+  /* comment-inline */
+
+  SET @variable
+
+  VAR @variable = 'string-quoted-single'
+  VAR @variable = "string-quoted-double"
+
+  VAR @variable = false
+  VAR @variable = true
+  VAR @variable = null
+
+  VAR @variable = 123
+  VAR @variable = -123
+
+  IF @variable == false AND @variable != true THEN
+    /* wrapped script or content */
+  ELSEIF 1 > 0 OR 0 < 1 OR 2 >= 0 OR 0 <= 2 THEN
+    /* wrapped script or content */
+  ELSEIF NOT @variable == true THEN
+    /* wrapped script or content */
+  ELSE
+    /* wrapped script or content */
+  ENDIF
+
+  FOR @variable = /*start expression*/ TO /*end expression*/ DO
+    /* wrapped script or content */
+  NEXT @variable
+
+  FOR @variable = /*start expression*/ DOWNTO /*end expression*/ DO
+    /* wrapped script or content */
+  NEXT @variable
+
+]%%
+
+%%=V(@variable)=%%
