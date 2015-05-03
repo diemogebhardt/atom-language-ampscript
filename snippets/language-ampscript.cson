@@ -2,9 +2,9 @@
   'code-block':
     'prefix': '%%'
     'body': '%%[\n$1\n]%%$0'
-  'code-block-context':
+  'code-block-executioncontext':
     'prefix': '%%'
-    'body': '%%[[type=${1:Post};name=${2:BlockName}]\n$3\n]%%$0'
+    'body': '%%[[type=${1:Load|Post};name=${2:BlockName}]\n$3\n]%%$0'
   'code-block-inline':
     'prefix': '%%'
     'body': '%%[$1]%%$0'
