@@ -66,7 +66,7 @@
     'name': 'keyword.control.ampscript'
   }
   {
-    'match': '==|!=|>|<|>=|<=|\\b(and|or|not)\\b'
+    'match': '==|!=|>|<|>=|<=|\\b(?i:and|or|not)\\b'
     'name': 'keyword.operator.ampscript'
   }
   {
