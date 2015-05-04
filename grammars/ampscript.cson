@@ -86,6 +86,10 @@
     'name': "support.constant.personalization.contacts.ampscript"
   }
   {
+    'match': '\\b(linkname|emailname_|_messagecontext|_MessageTypePreference|_replycontent|_IsTestSend|jobid)\\b'
+    'name': "support.constant.personalization.email.ampscript"
+  }
+  {
     'match': '\\b(xtmonth|xtmonthnumeric|xtday|xtdayofweek|xtyear|xtshortdate|xtlongdate)\\b'
     'name': "support.constant.personalization.email.date-time.ampscript"
   }
