@@ -81,6 +81,10 @@
     'match': '(\\b(?i:set|var)\\b)'
     'name': 'storage.type.ampscript'
   }
+  {
+    'match': '\\b(_CarrierID|_Channel|_City|_ContactID|_CountryCode|_CreatedBy|_CreatedDate|_FirstName|_IsHonorDST|_LastName|_MobileNumber|_ModifiedBy|_ModifiedDate|_Priority|_Source|_SourceObjectID|_State|_Status|_UTCOffset|_ZipCode)\\b'
+    'name': "support.constant.personalization.contacts.ampscript"
+  }
 ]
 'repository':
   'constant-character-escape':
