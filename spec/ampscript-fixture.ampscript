@@ -36,6 +36,8 @@
     /* wrapped script or content */
   NEXT @variable
 
+  _CarrierID _Channel _City _ContactID _CountryCode _CreatedBy _CreatedDate _FirstName _IsHonorDST _LastName _MobileNumber _ModifiedBy _ModifiedDate _Priority _Source _SourceObjectID _State _Status _UTCOffset _ZipCode
+
 ]%%
 
 %%=V(@variable)=%%
