@@ -98,6 +98,10 @@
     'name': 'support.constant.personalization.email.date-time.ampscript'
   }
   {
+    'match': '\\b(?i:microsite_base_url)\\b'
+    'name': 'support.constant.personalization.microsites.ampscript'
+  }
+  {
     'match': '\\b(?i:MOBILE_NUMBER|SHORT_CODE|CONTACT_KEY)\\b'
     'name': 'support.constant.personalization.mobile-messaging.ampscript'
   }
