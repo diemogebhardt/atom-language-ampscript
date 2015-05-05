@@ -82,23 +82,23 @@
     'name': 'storage.type.ampscript'
   }
   {
-    'match': '\\b(_CarrierID|_Channel|_City|_ContactID|_CountryCode|_CreatedBy|_CreatedDate|_FirstName|_IsHonorDST|_LastName|_MobileNumber|_ModifiedBy|_ModifiedDate|_Priority|_Source|_SourceObjectID|_State|_Status|_UTCOffset|_ZipCode)\\b'
+    'match': '\\b(?i:_CarrierID|_Channel|_City|_ContactID|_CountryCode|_CreatedBy|_CreatedDate|_FirstName|_IsHonorDST|_LastName|_MobileNumber|_ModifiedBy|_ModifiedDate|_Priority|_Source|_SourceObjectID|_State|_Status|_UTCOffset|_ZipCode)\\b'
     'name': 'support.constant.personalization.contacts.ampscript'
   }
   {
-    'match': '\\b(linkname|emailname_|_messagecontext|_MessageTypePreference|_replycontent|_IsTestSend|jobid)\\b'
+    'match': '\\b(?i:linkname|emailname_|_messagecontext|_MessageTypePreference|_replycontent|_IsTestSend|jobid)\\b'
     'name': 'support.constant.personalization.email.ampscript'
   }
   {
-    'match': '\\b(xtmonth|xtmonthnumeric|xtday|xtdayofweek|xtyear|xtshortdate|xtlongdate)\\b'
+    'match': '\\b(?i:xtmonth|xtmonthnumeric|xtday|xtdayofweek|xtyear|xtshortdate|xtlongdate)\\b'
     'name': 'support.constant.personalization.email.date-time.ampscript'
   }
   {
-    'match': '\\b(replyname|replyemailaddress|memberid|member_busname|member_addr|member_city|member_state|member_postalcode|member_country)\\b'
+    'match': '\\b(?i:replyname|replyemailaddress|memberid|member_busname|member_addr|member_city|member_state|member_postalcode|member_country)\\b'
     'name': 'support.constant.personalization.sender.ampscript'
   }
   {
-    'match': '\\b(view_email_url|ftaf_url|subscription_center_url|profile_center_url|unsub_center_url)\\b'
+    'match': '\\b(?i:view_email_url|ftaf_url|subscription_center_url|profile_center_url|unsub_center_url)\\b'
     'name': 'support.constant.personalization.standard-links.ampscript'
   }
 ]
