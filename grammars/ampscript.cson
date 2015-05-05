@@ -94,6 +94,10 @@
     'name': 'support.constant.personalization.email.date-time.ampscript'
   }
   {
+    'match': '\\b(?i:MOBILE_NUMBER|SHORT_CODE|CONTACT_KEY)\\b'
+    'name': 'support.constant.personalization.mobile-messaging.ampscript'
+  }
+  {
     'match': '\\b(?i:replyname|replyemailaddress|memberid|member_busname|member_addr|member_city|member_state|member_postalcode|member_country)\\b'
     'name': 'support.constant.personalization.sender.ampscript'
   }
