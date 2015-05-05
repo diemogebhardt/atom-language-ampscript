@@ -42,8 +42,10 @@
 
   xtmonth xtmonthnumeric xtday xtdayofweek xtyear xtshortdate xtlongdate
 
+  MOBILE_NUMBER|SHORT_CODE|CONTACT_KEY
+
   replyname replyemailaddress memberid member_busname member_addr member_city member_state member_postalcode member_country
-  
+
   view_email_url ftaf_url subscription_center_url profile_center_url unsub_center_url
 ]%%
 
