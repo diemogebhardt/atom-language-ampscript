@@ -97,6 +97,10 @@
     'match': '\\b(replyname|replyemailaddress|memberid|member_busname|member_addr|member_city|member_state|member_postalcode|member_country)\\b'
     'name': 'support.constant.personalization.sender.ampscript'
   }
+  {
+    'match': '\\b(view_email_url|ftaf_url|subscription_center_url|profile_center_url|unsub_center_url)\\b'
+    'name': 'support.constant.personalization.standard-links.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
