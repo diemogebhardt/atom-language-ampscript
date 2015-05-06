@@ -44,6 +44,8 @@
 
   xtmonth xtmonthnumeric xtday xtdayofweek xtyear xtshortdate xtlongdate
 
+  channelmemberid channelmemberdisplayname channelmembername channelmemberemail
+
   microsite_base_url
 
   MOBILE_NUMBER|SHORT_CODE|CONTACT_KEY
