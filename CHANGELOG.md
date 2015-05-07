@@ -1,3 +1,28 @@
+## 0.2.0 - Personalization Strings Release
+
+#### Grammars
+* Add grammar to support enterprise personalization strings
+* Add grammar to support microsites personalization strings
+* Add grammar to support analytics personalization strings
+* Add grammar to support mobile-messaging personalization strings
+* Add grammar to support standard-link personalization strings
+* Add grammar to support sender personalization strings
+* Add grammar to support email personalization strings
+* Add grammar to support email (date-time) personalization strings
+* Add grammar to support personalization strings for contacts
+
+#### Spec
+* Add fixtures to test enterprise personalization string grammar
+* Add fixtures to test microsites personalization string grammar
+* Add fixtures to test analytics personalization string grammar
+* Add fixtures to test mobile-messaging personalization string grammar
+* Add fixtures to test standard-link personalization string grammar
+* Add fixtures to test sender personalization string grammar
+* Add fixtures to test email personalization string grammar
+* Add fixtures to test email (date-time) personalization string grammar
+* Add fixtures to test personalization string grammar for contacts
+
+
 ## 0.1.0 - Initial Release
 * Initial language package structure for Atom
 * Initial configuration of Travis CI
