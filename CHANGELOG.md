@@ -1,3 +1,13 @@
+## 0.2.1 - Personalization Strings Release
+* Improve personalization string documentation
+
+#### Grammars
+* Add grammar to support recipient and subscriber list personalization strings
+
+#### Spec
+* Add fixtures to test recipient and subscriber list personalization string grammar
+
+
 ## 0.2.0 - Personalization Strings Release
 
 #### Grammars
