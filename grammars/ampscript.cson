@@ -110,6 +110,10 @@
     'name': 'support.constant.personalization.mobile-messaging.ampscript'
   }
   {
+    'match': '\\b(?i:emailaddr|fullname_|fullname|firstname_|firstname|lastname_|lastname|comment_|comment|subscriberid|_subscriberkey|listid|list_|listsubid|_messagetypepreference|mobile_number|short_code|contact_key|_listname|_emailid|_JobSubscriberBatchID|_DataSourceName|_ImpressionRegionID|_ImpressionRegionName)\\b'
+    'name': 'support.constant.personalization.recipient-subscriber-list.ampscript'
+  }
+  {
     'match': '\\b(?i:replyname|replyemailaddress|memberid|member_busname|member_addr|member_city|member_state|member_postalcode|member_country)\\b'
     'name': 'support.constant.personalization.sender.ampscript'
   }
