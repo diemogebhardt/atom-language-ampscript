@@ -141,6 +141,10 @@
     'match': '\\b(?i:Base64Decode|Base64Encode|DecryptSymmetric|EncryptSymmetric|GUID|MD5|SHA1|SHA256|SHA512)\\b'
     'name': 'support.function.encryption.ampscript'
   }
+  {
+    'match': '\\b(?i:HTTPGet|HTTPRequestHeader|IsCHTMLBrowser|RedirectTo|URLEncode|WrapLongURL)\\b'
+    'name': 'support.function.http.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
