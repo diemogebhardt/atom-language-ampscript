@@ -67,6 +67,9 @@
 
   /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_5 */
   view_email_url ftaf_url subscription_center_url profile_center_url unsub_center_url
+
+  /* https://code.exacttarget.com/content-scripting/ampscript/functions.html */
+  UpsertContact
 ]%%
 
 %%=V(@variable)=%%
