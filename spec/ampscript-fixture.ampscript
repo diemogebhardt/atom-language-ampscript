@@ -81,7 +81,7 @@
 
   HTTPGet HTTPRequestHeader IsCHTMLBrowser RedirectTo URLEncode WrapLongURL
 
-  Add|Divide FormatCurrency FormatNumber Mod Multiply Random Subtract
+  Add Divide FormatCurrency FormatNumber Mod Multiply Random Subtract
 
 ]%%
 
