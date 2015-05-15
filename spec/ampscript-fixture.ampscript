@@ -70,6 +70,9 @@
 
   /* https://code.exacttarget.com/content-scripting/ampscript/functions.html */
   UpsertContact
+
+  AttachFileBarCodeURL BeginImpressionRegion BuildOptionList BuildRowSetFromString BuildRowSetFromXML ContentArea ContentAreaByName CreateSmsConversation EndImpressionRegion EndSmsConversation GetPortfolioItem Image SetSmsConversationNextKeyword TransformXML TreatAsContent TreatAsContentArea WAT
+
 ]%%
 
 %%=V(@variable)=%%
