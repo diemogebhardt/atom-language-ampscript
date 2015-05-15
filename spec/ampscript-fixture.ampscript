@@ -77,6 +77,8 @@
 
   DateAdd DateDiff DateParse DatePart FormatDate LocalDateToSystemDate Now SystemDateToLocalDate
 
+  Base64Decode Base64Encode DecryptSymmetric EncryptSymmetric GUID MD5 SHA1 SHA256 SHA512
+
 ]%%
 
 %%=V(@variable)=%%
