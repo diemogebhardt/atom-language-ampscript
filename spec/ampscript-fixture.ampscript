@@ -79,6 +79,8 @@
 
   Base64Decode Base64Encode DecryptSymmetric EncryptSymmetric GUID MD5 SHA1 SHA256 SHA512
 
+  HTTPGet HTTPRequestHeader IsCHTMLBrowser RedirectTo URLEncode WrapLongURL
+
 ]%%
 
 %%=V(@variable)=%%
