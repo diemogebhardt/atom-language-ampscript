@@ -145,6 +145,10 @@
     'match': '\\b(?i:HTTPGet|HTTPRequestHeader|IsCHTMLBrowser|RedirectTo|URLEncode|WrapLongURL)\\b'
     'name': 'support.function.http.ampscript'
   }
+  {
+    'match': '\\b(?i:Add|Divide|FormatCurrency|FormatNumber|Mod|Multiply|Random|Subtract)\\b'
+    'name': 'support.function.math.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
