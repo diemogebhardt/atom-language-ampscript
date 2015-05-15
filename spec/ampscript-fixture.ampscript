@@ -81,6 +81,8 @@
 
   HTTPGet HTTPRequestHeader IsCHTMLBrowser RedirectTo URLEncode WrapLongURL
 
+  Add|Divide FormatCurrency FormatNumber Mod Multiply Random Subtract
+
 ]%%
 
 %%=V(@variable)=%%
