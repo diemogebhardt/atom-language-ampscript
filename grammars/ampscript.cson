@@ -129,6 +129,10 @@
     'match': '\\b(?i:AttachFile|BarCodeURL|BeginImpressionRegion|BuildOptionList|BuildRowSetFromString|BuildRowSetFromXML|ContentArea|ContentAreaByName|CreateSmsConversation|EndImpressionRegion|EndSmsConversation|GetPortfolioItem|Image|SetSmsConversationNextKeyword|TransformXML|TreatAsContent|TreatAsContentArea|WAT)\\b'
     'name': 'support.function.content.ampscript'
   }
+  {
+    'match': '\\b(?i:ClaimRow|ClaimRowValue|DeleteDE|ExecuteFilter|ExecuteFilterOrderedRows|Field|InsertDE|Lookup|LookupOrderedRows|LookupRows|LookupRowsCS|Row|RowCount|UpdateData|UpdateDE|UpsertData|UpsertDE)\\b'
+    'name': 'support.function.data-extension.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
