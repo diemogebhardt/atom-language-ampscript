@@ -73,6 +73,8 @@
 
   AttachFileBarCodeURL BeginImpressionRegion BuildOptionList BuildRowSetFromString BuildRowSetFromXML ContentArea ContentAreaByName CreateSmsConversation EndImpressionRegion EndSmsConversation GetPortfolioItem Image SetSmsConversationNextKeyword TransformXML TreatAsContent TreatAsContentArea WAT
 
+  ClaimRow ClaimRowValue DeleteDE ExecuteFilter ExecuteFilterOrderedRows Field InsertDE Lookup LookupOrderedRows LookupRows LookupRowsCS Row RowCount UpdateData UpdateDE UpsertData UpsertDE
+
 ]%%
 
 %%=V(@variable)=%%
