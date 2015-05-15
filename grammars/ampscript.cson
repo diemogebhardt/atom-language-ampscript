@@ -137,6 +137,10 @@
     'match': '\\b(?i:DateAdd|DateDiff|DateParse|DatePart|FormatDate|LocalDateToSystemDate|Now|SystemDateToLocalDate)\\b'
     'name': 'support.function.date-time.ampscript'
   }
+  {
+    'match': '\\b(?i:Base64Decode|Base64Encode|DecryptSymmetric|EncryptSymmetric|GUID|MD5|SHA1|SHA256|SHA512)\\b'
+    'name': 'support.function.encryption.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
