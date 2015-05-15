@@ -1,3 +1,24 @@
+## 0.3.0 - Functions Release
+
+#### Grammars
+* Add grammar to support math functions
+* Add grammar to support http functions
+* Add grammar to support encryption functions
+* Add grammar to support date time functions
+* Add grammar to support data extension functions
+* Add grammar to support content functions
+* Add grammar to support contacts functions
+
+#### Spec
+* Add fixtures to test math functions
+* Add fixtures to test http functions
+* Add fixtures to test encryption functions
+* Add fixtures to test date time functions
+* Add fixtures to test data extension functions
+* Add fixtures to test content functions
+* Add fixtures to test contacts functions
+
+
 ## 0.2.1 - Personalization Strings Release
 * Improve personalization string documentation
 
