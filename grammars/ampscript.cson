@@ -121,6 +121,10 @@
     'match': '\\b(?i:view_email_url|ftaf_url|subscription_center_url|profile_center_url|unsub_center_url)\\b'
     'name': 'support.constant.personalization.standard-links.ampscript'
   }
+  {
+    'match': '\\b(?i:UpsertContact)\\b'
+    'name': 'support.function.contacts.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
