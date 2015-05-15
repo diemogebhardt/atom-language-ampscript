@@ -125,6 +125,10 @@
     'match': '\\b(?i:UpsertContact)\\b'
     'name': 'support.function.contacts.ampscript'
   }
+  {
+    'match': '\\b(?i:AttachFile|BarCodeURL|BeginImpressionRegion|BuildOptionList|BuildRowSetFromString|BuildRowSetFromXML|ContentArea|ContentAreaByName|CreateSmsConversation|EndImpressionRegion|EndSmsConversation|GetPortfolioItem|Image|SetSmsConversationNextKeyword|TransformXML|TreatAsContent|TreatAsContentArea|WAT)\\b'
+    'name': 'support.function.content.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
