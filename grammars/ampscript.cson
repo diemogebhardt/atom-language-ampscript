@@ -161,6 +161,10 @@
     'match': '\\b(?i:AuthenticatedEmployeeID|AuthenticatedEmployeeNotificationAddress|AuthenticatedEmployeeUserName|AuthenticatedEnterpriseID|AuthenticatedMemberID|AuthenticatedMemberName|DeleteData|InsertData|IsNullDefault|LiveContentMicrositeURL|MicrositeURL|QueryParameter|Redirect|RequestParameter)\\b'
     'name': 'support.function.sites.ampscript'
   }
+  {
+    'match': '\\b(?i:GetPublishedSocialContent|GetSocialPublishURL|GetSocialPublishURLByName)\\b'
+    'name': 'support.function.social.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
