@@ -157,6 +157,10 @@
     'match': '\\b(?i:CreateSalesforceObject|LongSFID|RetrieveSalesforceJobSources|RetrieveSalesforceObjects|UpdateSingleSalesforceObject)\\b'
     'name': 'support.function.salesforce.ampscript'
   }
+  {
+    'match': '\\b(?i:AuthenticatedEmployeeID|AuthenticatedEmployeeNotificationAddress|AuthenticatedEmployeeUserName|AuthenticatedEnterpriseID|AuthenticatedMemberID|AuthenticatedMemberName|DeleteData|InsertData|IsNullDefault|LiveContentMicrositeURL|MicrositeURL|QueryParameter|Redirect|RequestParameter)\\b'
+    'name': 'support.function.sites.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
