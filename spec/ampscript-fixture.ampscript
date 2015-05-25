@@ -91,6 +91,8 @@
 
   GetPublishedSocialContent GetSocialPublishURL GetSocialPublishURLByName
 
+  Char Concat Format IndexOf Length Lowercase ProperCase RegExMatch Replace ReplaceList StringToDate StringToHex Substring Trim Uppercase
+
 ]%%
 
 %%=V(@variable)=%%
