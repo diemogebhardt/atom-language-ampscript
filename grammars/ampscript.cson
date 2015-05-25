@@ -169,6 +169,10 @@
     'match': '\\b(?i:Char|Concat|Format|IndexOf|Length|Lowercase|ProperCase|RegExMatch|Replace|ReplaceList|StringToDate|StringToHex|Substring|Trim|Uppercase)\\b'
     'name': 'support.function.string.ampscript'
   }
+  {
+    'match': '\\b(?i:AttributeValue|Domain|Empty|IIf|IsEmailAddress|IsNull|IsPhoneNumber|Output|OutputLine|V)\\b'
+    'name': 'support.function.utilities.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
