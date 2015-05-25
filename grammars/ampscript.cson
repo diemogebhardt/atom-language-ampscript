@@ -153,6 +153,10 @@
     'match': '\\b(?i:RetrieveMscrmRecords|RetrieveMscrmRecordsFetchXML|SetStateMscrmRecord|UpdateMscrmRecords|UpsertMscrmRecord|CreateMscrmRecord|DescribeMscrmEntities|DescribeMscrmEntityAttributes|AddMscrmListMember)\\b'
     'name': 'support.function.microsoft-dynamics.ampscript'
   }
+  {
+    'match': '\\b(?i:CreateSalesforceObject|LongSFID|RetrieveSalesforceJobSources|RetrieveSalesforceObjects|UpdateSingleSalesforceObject)\\b'
+    'name': 'support.function.salesforce.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
