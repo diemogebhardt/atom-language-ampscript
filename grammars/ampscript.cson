@@ -149,6 +149,10 @@
     'match': '\\b(?i:Add|Divide|FormatCurrency|FormatNumber|Mod|Multiply|Random|Subtract)\\b'
     'name': 'support.function.math.ampscript'
   }
+  {
+    'match': '\\b(?i:RetrieveMscrmRecords|RetrieveMscrmRecordsFetchXML|SetStateMscrmRecord|UpdateMscrmRecords|UpsertMscrmRecord|CreateMscrmRecord|DescribeMscrmEntities|DescribeMscrmEntityAttributes|AddMscrmListMember)\\b'
+    'name': 'support.function.microsoft-dynamics.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
