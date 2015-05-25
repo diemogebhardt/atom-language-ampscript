@@ -83,6 +83,8 @@
 
   Add Divide FormatCurrency FormatNumber Mod Multiply Random Subtract
 
+  RetrieveMscrmRecords RetrieveMscrmRecordsFetchXML SetStateMscrmRecord UpdateMscrmRecords UpsertMscrmRecord CreateMscrmRecord DescribeMscrmEntities DescribeMscrmEntityAttributes AddMscrmListMember
+
 ]%%
 
 %%=V(@variable)=%%
