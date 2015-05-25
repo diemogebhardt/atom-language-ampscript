@@ -87,6 +87,8 @@
 
   CreateSalesforceObject LongSFID RetrieveSalesforceJobSources RetrieveSalesforceObjects UpdateSingleSalesforceObject
 
+  AuthenticatedEmployeeID AuthenticatedEmployeeNotificationAddress AuthenticatedEmployeeUserName AuthenticatedEnterpriseID AuthenticatedMemberID AuthenticatedMemberName DeleteData InsertData IsNullDefault LiveContentMicrositeURL MicrositeURL QueryParameter Redirect RequestParameter
+
 ]%%
 
 %%=V(@variable)=%%
