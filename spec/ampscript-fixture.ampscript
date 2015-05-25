@@ -93,6 +93,8 @@
 
   Char Concat Format IndexOf Length Lowercase ProperCase RegExMatch Replace ReplaceList StringToDate StringToHex Substring Trim Uppercase
 
+  AttributeValue Domain Empty IIf IsEmailAddress IsNull IsPhoneNumber Output OutputLine V
+
 ]%%
 
 %%=V(@variable)=%%
