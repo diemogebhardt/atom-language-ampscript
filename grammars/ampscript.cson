@@ -165,6 +165,10 @@
     'match': '\\b(?i:GetPublishedSocialContent|GetSocialPublishURL|GetSocialPublishURLByName)\\b'
     'name': 'support.function.social.ampscript'
   }
+  {
+    'match': '\\b(?i:Char|Concat|Format|IndexOf|Length|Lowercase|ProperCase|RegExMatch|Replace|ReplaceList|StringToDate|StringToHex|Substring|Trim|Uppercase)\\b'
+    'name': 'support.function.string.ampscript'
+  }
 ]
 'repository':
   'constant-character-escape':
