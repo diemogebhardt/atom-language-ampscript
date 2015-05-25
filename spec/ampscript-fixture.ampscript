@@ -85,6 +85,8 @@
 
   RetrieveMscrmRecords RetrieveMscrmRecordsFetchXML SetStateMscrmRecord UpdateMscrmRecords UpsertMscrmRecord CreateMscrmRecord DescribeMscrmEntities DescribeMscrmEntityAttributes AddMscrmListMember
 
+  CreateSalesforceObject LongSFID RetrieveSalesforceJobSources RetrieveSalesforceObjects UpdateSingleSalesforceObject
+
 ]%%
 
 %%=V(@variable)=%%
