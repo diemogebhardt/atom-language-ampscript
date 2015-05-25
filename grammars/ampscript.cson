@@ -122,6 +122,10 @@
     'name': 'support.constant.personalization.standard-links.ampscript'
   }
   {
+    'match': '\\b(?i:AddObjectArrayItem|CreateObject|InvokeCreate|InvokeDelete|InvokeExecute|InvokePerform|InvokeRetrieve|InvokeUpdate|RaiseError|SetObjectProperty)\\b'
+    'name': 'support.function.api.ampscript'
+  }
+  {
     'match': '\\b(?i:UpsertContact)\\b'
     'name': 'support.function.contacts.ampscript'
   }
