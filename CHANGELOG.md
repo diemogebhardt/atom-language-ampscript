@@ -1,3 +1,26 @@
+## 0.3.1 - Functions Release
+
+#### Grammars
+* Add grammar to support api functions
+* Add grammar to support utility functions
+* Add grammar to support string functions
+* Add grammar to support social functions
+* Add grammar to support sites functions
+* Add grammar to support salesforce functions
+* Add grammar to support microsoft dynamics functions
+
+#### Spec
+* Add fixtures to test api functions
+* Add fixtures to test utility functions
+* Add fixtures to test string functions
+* Add fixtures to test social functions
+* Add fixtures to test sites functions
+* Add fixtures to test salesforce functions
+* Add fixtures to test microsoft dynamics functions
+* Fix fixtures to test math functions
+* Fix fixtures to test content functions
+
+
 ## 0.3.0 - Functions Release
 
 #### Grammars
