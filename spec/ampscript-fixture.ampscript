@@ -89,6 +89,8 @@
 
   AuthenticatedEmployeeID AuthenticatedEmployeeNotificationAddress AuthenticatedEmployeeUserName AuthenticatedEnterpriseID AuthenticatedMemberID AuthenticatedMemberName DeleteData InsertData IsNullDefault LiveContentMicrositeURL MicrositeURL QueryParameter Redirect RequestParameter
 
+  GetPublishedSocialContent GetSocialPublishURL GetSocialPublishURLByName
+
 ]%%
 
 %%=V(@variable)=%%
