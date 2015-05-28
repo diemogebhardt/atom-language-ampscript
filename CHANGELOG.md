@@ -1,3 +1,12 @@
+## 0.4.0 - Content Detective Release
+
+#### Grammars
+* Add grammar to support content detective trigger words
+
+#### Spec
+* Add fixtures to test content detective trigger words
+
+
 ## 0.3.1 - Functions Release
 
 #### Grammars
