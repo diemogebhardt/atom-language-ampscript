@@ -1,10 +1,14 @@
-## 0.4.0 - Content Detective Release
+## 0.5.0 - Content Detective Release
 
 #### Grammars
 * Add grammar to support content detective trigger words
 
 #### Spec
 * Add fixtures to test content detective trigger words
+
+
+## 0.4.0 - Skipped Release
+* Skip release due to apm publish issues
 
 
 ## 0.3.1 - Functions Release
