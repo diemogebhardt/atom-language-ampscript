@@ -1,3 +1,14 @@
+## 0.6.0 - AMPscript within HTML Release
+* Update supported Atom version range
+* Update documentation links
+
+#### Grammars
+* Add grammar to support AMPscript within HTML files
+
+#### Spec
+* Add fixtures to test AMPscript within HTML files
+
+
 ## 0.5.0 - Content Detective Release
 
 #### Grammars
