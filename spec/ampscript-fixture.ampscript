@@ -36,39 +36,39 @@
     /* wrapped script or content */
   NEXT @variable
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/ */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/ */
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_7 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/#section_7 */
   AdditionalInfo_ __AdditionalEmailAttribute1 __AdditionalEmailAttribute2 __AdditionalEmailAttribute3 __AdditionalEmailAttribute4 __AdditionalEmailAttribute5
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/ampscript/using_personalization_strings_with_ampscript/ */
+  /* https://developer.salesforce.com/docs/atlas.en-us.mc-programmatic-content.meta/mc-programmatic-content/personalizationStringsAMPscript.htm#marketing-cloud-personalization-strings */
   _CarrierID _Channel _City _ContactID _CountryCode _CreatedBy _CreatedDate _FirstName _IsHonorDST _LastName _MobileNumber _ModifiedBy _ModifiedDate _Priority _Source _SourceObjectID _State _Status _UTCOffset _ZipCode
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_2 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/ */
   linkname emailname_ _messagecontext _MessageTypePreference _replycontent _IsTestSend jobid
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_2 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/ */
   xtmonth xtmonthnumeric xtday xtdayofweek xtyear xtshortdate xtlongdate
 
   /* http://wiki.memberlandingpages.com/en/documentation/exacttarget/enterprise/enterprise_overview/publishing_emails_to_your_lock__publish_channel_members/#Personalization_Strings */
   channelmemberid channelmemberdisplayname channelmembername channelmemberemail
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_6 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/#section_6 */
   microsite_base_url
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_6 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/#section_6 */
   MOBILE_NUMBER|SHORT_CODE|CONTACT_KEY
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_3 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/#section_3 */
   emailaddr fullname_ fullname firstname_ firstname lastname_ lastname comment_ comment subscriberid _subscriberkey listid list_ listsubid _messagetypepreference mobile_number short_code contact_key _listname _emailid _JobSubscriberBatchID _DataSourceName _ImpressionRegionID _ImpressionRegionName
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_4 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/#section_4 */
   replyname replyemailaddress memberid member_busname member_addr member_city member_state member_postalcode member_country
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/personalization_strings/#section_5 */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/personalization_strings/strings/#section_5 */
   view_email_url ftaf_url subscription_center_url profile_center_url unsub_center_url
 
-  /* https://code.exacttarget.com/content-scripting/ampscript/functions.html */
+  /* https://developer.salesforce.com/docs/atlas.en-us.mc-programmatic-content.meta/mc-programmatic-content/functions.htm */
   AddObjectArrayItem CreateObject InvokeCreate InvokeDelete InvokeExecute InvokePerform InvokeRetrieve InvokeUpdate RaiseError SetObjectProperty
 
   UpsertContact
@@ -97,7 +97,7 @@
 
   AttributeValue Domain Empty IIf IsEmailAddress IsNull IsPhoneNumber Output OutputLine V
 
-  /* http://help.exacttarget.com/en/documentation/exacttarget/content/content_detective/ */
+  /* http://help.marketingcloud.com/en/documentation/exacttarget/content/content_detective/trigger_words/ */
   !!!
   $$$
   100% Free
