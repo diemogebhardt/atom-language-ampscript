@@ -16,7 +16,7 @@
     "url": "https://github.com/diemogebhardt/atom-language-ampscript/issues"
   },
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "keywords": [
     "atom",
