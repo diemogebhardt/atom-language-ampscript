@@ -21,7 +21,10 @@
   "keywords": [
     "atom",
     "language",
-    "ampscript"
+    "ampscript",
+    "salesforce",
+    "marketingcloud",
+    "exacttarget"
   ],
   "license": "MIT"
 }
