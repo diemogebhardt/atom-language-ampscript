@@ -1,0 +1,16 @@
+'scopeName': 'text.html.ampscript'
+'name': 'HTML (AMPscript)'
+'fileTypes': [
+  'htm.amp'
+  'htm.ampscript'
+  'html.amp'
+  'html.ampscript'
+]
+'patterns': [
+  {
+    'include': 'text.html.basic'
+  }
+  {
+    'include': 'source.ampscript'
+  }
+]
